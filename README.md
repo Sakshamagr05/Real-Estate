@@ -1,12 +1,58 @@
-# React + Vite
+# 🏠 Real Estate Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, fully responsive real estate website built with **React.js**, **Tailwind CSS**, **Vite**, and **Framer Motion** for smooth animations.  
+This site showcases real estate projects, company information, customer testimonials, and a contact form integrated with **Web3Forms**.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- **Responsive Design** – Works seamlessly on desktop, tablet, and mobile devices.
+- **Smooth Animations** – Powered by [Framer Motion]
+- **Modern UI** – Styled with [Tailwind CSS]
+- **Contact Form** – Integrated with [Web3Forms] for email submissions.
+- **Dynamic Content** – Modular React components for easy updates.
+- **Navigation** – Smooth scrolling with mobile and desktop navigation menus.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 📂 Folder Structure
+real-estate-website/
+├── public/ # Static files (favicon, header images, etc.)
+├── src/
+│ ├── assets/ # Images, icons, and data arrays
+│ ├── components/ # Reusable React components
+│ │ ├── About.jsx # About section
+│ │ ├── Contact.jsx # Contact form section
+│ │ ├── Footer.jsx # Footer section
+│ │ ├── Header.jsx # Header section with hero image
+│ │ ├── Navbar.jsx # Navigation bar (desktop + mobile)
+│ │ ├── Projects.jsx # Project showcase slider
+│ │ ├── Testimonial.jsx # Customer testimonials
+│ ├── App.jsx # Root component
+│ ├── index.css # Global styles
+│ ├── main.jsx # Entry point
+├── .gitignore
+├── eslint.config.js
+├── index.html
+├── package.json
+├── vite.config.js
+└── README.md
+
+
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend Framework:** [React.js]
+- **Build Tool:** [Vite]
+- **Styling:** [Tailwind CSS]
+- **Animations:** [Framer Motion]
+- **Form Handling:** [Web3Forms API]
+
+---
+👨‍💻 Author
+
+Saksham Agrawal
+
+
